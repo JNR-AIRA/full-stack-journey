@@ -3,7 +3,7 @@
 **Goal:** Become job-ready full-stack developer in 2 months  
 **Start Date:** [Today's Date]  
 **Tech Stack:** HTML5, CSS3, JavaScript, React, Node.js, PostgreSQL  
-**Learning Method:** Project-based with DeepSeek AI as tutor
+
 
 ## 📚 Progress Timeline
 
