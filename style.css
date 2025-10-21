@@ -1,0 +1,53 @@
+/* style.css */
+/* This is a CSS comment - it doesn't affect the code */
+/* style.css */
+
+/* TARGETING THE ENTIRE BODY OF THE PAGE */
+body {
+    font-family: 'Arial', sans-serif; /* Changes the text font */
+    max-width: 800px;                 /* Maximum width of content */
+    margin: 0 auto;                   /* Centers the page horizontally */
+    padding: 20px;                    /* Space inside the body */
+    background-color: #f5f5f5;        /* Light gray background */
+    color: #333;                      /* Dark gray text color */
+}
+/* TARGETING ALL <h1> HEADERS */
+h1 {
+    color: #e74c3c;                   /* Dark blue color */
+    text-align: center;               /* Centers the text */
+    border-bottom: 3px solid #3498db; /* Blue line under the heading */
+    padding-bottom: 10px;             /* Space between text and line */
+}
+/* TARGETING ALL <h2> HEADERS */
+h2 {
+    color: #2980b9;  /* Medium blue - slightly different from h1 */
+}
+
+/* TARGETING ALL UNORDERED LISTS (<ul>) */
+ul {
+    background-color: white;          /* White background */
+    padding: 20px;                    /* Space inside the list */
+    border-radius: 8px;               /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+/* TARGETING ALL <section> ELEMENTS */
+section {
+    background-color: white;          /* White background */
+    padding: 20px;                    /* Space inside sections */
+    margin-top: 20px;                 /* Space above sections */
+    border-radius: 8px;               /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Same shadow as lists */
+}
+section {
+    /* PADDING = Carpet space inside room */
+    padding: 50px;          /* 30px carpet all around your text */
+    
+    /* BORDER = Room walls */
+    border: 10px solid blue;  /* 5px thick red walls - SEE THE BOX! */
+    
+    /* MARGIN = Space between rooms */
+    margin: 40px;           /* 20px empty space between sections */
+    
+    /* CONTENT = Your text automatically sits in the middle */
+    background-color: lightblue;  /* Room floor color */
+}
